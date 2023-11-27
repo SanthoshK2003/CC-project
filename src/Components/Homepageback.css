@@ -1,8 +1,9 @@
 .home{
-    /*background-image:url("https://media.istockphoto.com/id/509175470/vector/background-for-little-boys-hand-drawn-children-drawings.jpg?s=612x612&w=0&k=20&c=bcYTNBS6F0eRUBk6eYuQh8ZxHtViREqIi0qfDmpDQB4=") */
-    background-size: auto;
-    background-repeat: repeat;
-    background-color: transparent;
-    width: 99vw;
-    height: 200vh;
+  background-image: url("https://st.depositphotos.com/1298561/4807/v/950/depositphotos_48071139-stock-illustration-doodle-baby-pattern-background.jpg");
+  
+  background-repeat: repeat;
+  background-color: white;
+  opacity: 30;
+  width: 99vw;
+  height: 230vh;
 }

@@ -3,11 +3,12 @@ import "./Category.css";
 import Button from "@mui/material/Button";
 import myImage from "./GOLDEN-HOUR.png";
 import { Paper } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Category = () => {
   return (
-    <div style={{float:"left",paddingRight:"80px"}}>
-    <Paper elevation={12} style={{width:"250px",marginLeft:"30px",backgroundColor:"rgb(50,50,50)",alignItems:"center" , height:"780px", marginTop:"10px"}}>
+    <div style={{float:"left",paddingRight:"30px"}}>
+    <Paper className="back" elevation={12} style={{width:"250px",marginLeft:"30px",backgroundColor:"white",alignItems:"center" , height:"780px", marginTop:"50px"}}>
     <div>
       <div className="box">
         <div style={{marginRight:"70px"}}>
@@ -15,21 +16,25 @@ const Category = () => {
             className="img"
             src={myImage}
             alt="Example"
-            style={{ maxWidth: "105%", height: "190px" }}
+            style={{maxWidth: "100%", height: "190px" }}
           />
         </div>
         <table className="custom-table" style={{marginLeft:"30px"}}>
           <tbody>
             <tr>
               <td>
+                
+                <Link to="/Paintings">
                 <Button
                   variant="contained"
                   size="large"
                   content="centre"
+                  backgroundColor="#00ff00"
                   style={{ width: "150px" }}
                 >
                   Paintings
                 </Button>
+                </Link>
               </td>
             </tr>
             <tr>
